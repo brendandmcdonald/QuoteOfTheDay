@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC12CDFD19D20BC2003384FD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12CDFC19D20BC2003384FD /* Colors.swift */; };
 		ACE853A119D2083C00B1B923 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE853A019D2083C00B1B923 /* AppDelegate.swift */; };
 		ACE853A319D2083C00B1B923 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE853A219D2083C00B1B923 /* ViewController.swift */; };
 		ACE853A619D2083C00B1B923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE853A419D2083C00B1B923 /* Main.storyboard */; };
 		ACE853A819D2083C00B1B923 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE853A719D2083C00B1B923 /* Images.xcassets */; };
 		ACE853AB19D2083C00B1B923 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACE853A919D2083C00B1B923 /* LaunchScreen.xib */; };
 		ACE853B719D2083C00B1B923 /* QuoteOfTheDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE853B619D2083C00B1B923 /* QuoteOfTheDayTests.swift */; };
+		ACE853C119D2087200B1B923 /* QuoteBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE853C019D2087200B1B923 /* QuoteBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC12CDFC19D20BC2003384FD /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		ACE8539B19D2083C00B1B923 /* QuoteOfTheDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuoteOfTheDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE8539F19D2083C00B1B923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACE853A019D2083C00B1B923 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		ACE853B019D2083C00B1B923 /* QuoteOfTheDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuoteOfTheDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE853B519D2083C00B1B923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACE853B619D2083C00B1B923 /* QuoteOfTheDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteOfTheDayTests.swift; sourceTree = "<group>"; };
+		ACE853C019D2087200B1B923 /* QuoteBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				ACE853A719D2083C00B1B923 /* Images.xcassets */,
 				ACE853A919D2083C00B1B923 /* LaunchScreen.xib */,
 				ACE8539E19D2083C00B1B923 /* Supporting Files */,
+				ACE853C019D2087200B1B923 /* QuoteBook.swift */,
+				AC12CDFC19D20BC2003384FD /* Colors.swift */,
 			);
 			path = QuoteOfTheDay;
 			sourceTree = "<group>";
@@ -212,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE853C119D2087200B1B923 /* QuoteBook.swift in Sources */,
+				AC12CDFD19D20BC2003384FD /* Colors.swift in Sources */,
 				ACE853A319D2083C00B1B923 /* ViewController.swift in Sources */,
 				ACE853A119D2083C00B1B923 /* AppDelegate.swift in Sources */,
 			);
@@ -407,6 +415,7 @@
 				ACE853BC19D2083C00B1B923 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACE853BD19D2083C00B1B923 /* Build configuration list for PBXNativeTarget "QuoteOfTheDayTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				ACE853BF19D2083C00B1B923 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
