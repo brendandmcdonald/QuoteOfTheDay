@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>966BFA5A-1560-4A84-873E-234B3D4384B5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QuoteOfTheDay</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8D1A62BA59632B94A111AE035BF71BAE3C10792E</key>
+		<string>https://github.com/brendandmcdonald/QuoteOfTheDay.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>QuoteOfTheDay.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8D1A62BA59632B94A111AE035BF71BAE3C10792E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/brendandmcdonald/QuoteOfTheDay.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8D1A62BA59632B94A111AE035BF71BAE3C10792E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8D1A62BA59632B94A111AE035BF71BAE3C10792E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QuoteOfTheDay</string>
+		</dict>
+	</array>
+</dict>
+</plist>
